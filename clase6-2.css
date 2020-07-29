@@ -1,17 +1,27 @@
+.contenedor {
+    background-color: blue;
+    height: 900px;
+    display: flex;
+    flex-direction: row;
+}
+
 .seccion-principal {
     height: 200px;
     width: 200px;
-    display: inline-block;
-    text-align: center;
 
     border: 1px solid gray;
-    padding: 20px;
-    margin: 30px;
-    box-sizing: border-box;
-    background-color: white;
+    margin: 20px;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.contenedor {
-    background-color: blue;
-    text-align:center;
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+
+  
