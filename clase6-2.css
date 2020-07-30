@@ -1,6 +1,5 @@
 .contenedor {
     background-color: blue;
-    height: 900px;
     display: flex;
     flex-direction: row;
 }
